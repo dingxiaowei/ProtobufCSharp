@@ -48,7 +48,7 @@ namespace ChatServer
                 {
                     Welcome = new WelcomeNotification.Builder()
                     {
-                        Text = pb.ByteString.CopyFromUtf8( "欢迎加入广播广播聊天服务。")
+                        Text = pb.ByteString.CopyFromUtf8( "广播聊天客户端")
                     }.Build()
                 }.Build()
             }.Build();
