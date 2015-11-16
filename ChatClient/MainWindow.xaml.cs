@@ -32,7 +32,7 @@ namespace ChatClient
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
 			ipaddress.Text = "120.24.85.34";
-            port.Text = "39999";
+            port.Text = "8888";
             username.Text = "丁小未";
             list_friends.ItemsSource = my_friends;
             list_messages.ItemsSource = text_messages;

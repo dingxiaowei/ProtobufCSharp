@@ -12,9 +12,7 @@ namespace ChatServer
     {
         static void Main(string[] args)
         {
-
-           
-            TcpListener server = new TcpListener( IPAddress.Any,39999);
+            TcpListener server = new TcpListener( IPAddress.Any,8888);
             server.Start();
             server.BeginAcceptTcpClient(new AsyncCallback(ReturnAccept), server);
 
